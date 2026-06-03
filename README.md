@@ -1,141 +1,232 @@
-# flutter_login_signup_app
+# 🚀 Flutter Concepts Lab
 
-A Flutter application demonstrating offline authentication using Floor Database, BLoC State Management, Dependency Injection, and Secure Session Management.
+A comprehensive Flutter learning repository covering Dart fundamentals, Flutter internals, state management, architecture, performance optimization, testing, and interview preparation.
 
-## Features
+The goal of this repository is to provide a structured learning path for Flutter developers, from beginner concepts to advanced topics, with practical examples, notes, and interview questions.
 
-* Splash Screen with Session Validation
-* User Registration
-* User Login
-* Logout Functionality
-* Auto Login on App Restart
-* Profile Image Selection (Camera & Gallery)
-* Local User Data Storage
-* Secure Session Management
-* Password Hashing using SHA256
-* Responsive UI using ScreenUtil
+---
 
-## Architecture
+## 📚 Topics Covered
 
-This project follows Clean Architecture principles with:
+### Dart Fundamentals
 
-* MVVM Architecture
-* BLoC State Management
-* Repository Pattern
-* Dependency Injection using GetIt
-* Floor Database (SQLite ORM)
-* Secure Storage for Session Management
+* Variables
+* Data Types
+* Operators
+* Functions
+* Collections
+* Null Safety
+* OOP Concepts
+* Constructors
+* Mixins
+* Extensions
+* Generics
+* Async/Await
+* Futures
+* Streams
+* Event Loop
+* Microtask Queue
+* Isolates
+* Exception Handling
 
-## Packages Used
+### Flutter Internals
 
-```yaml
-flutter_bloc
-equatable
-floor
-sqflite
-get_it
-either_dart
-flutter_secure_storage
-image_picker
-crypto
-flutter_screenutil
-path
-path_provider
-```
+* Widget Tree
+* Element Tree
+* Render Tree
+* BuildContext
+* Widget Lifecycle
+* Keys
+* Rendering Pipeline
 
-## Project Structure
+### State Management
+
+* setState
+* ValueNotifier
+* ChangeNotifier
+* Provider
+* Cubit
+* Bloc
+* Riverpod
+* GetX
+
+### Navigation
+
+* Navigator 1.0
+* Navigator 2.0
+* Go Router
+* Deep Linking
+* Route Guards
+
+### Networking
+
+* HTTP
+* Dio
+* Interceptors
+* Pagination
+* WebSocket
+* Retry Mechanism
+* Caching
+
+### Local Storage
+
+* Shared Preferences
+* Hive
+* SQLite
+* Drift
+* Secure Storage
+
+### Firebase
+
+* Authentication
+* Firestore
+* Storage
+* Analytics
+* Crashlytics
+* Firebase Cloud Messaging
+* Remote Config
+
+### Animations
+
+* Implicit Animations
+* Explicit Animations
+* Hero Animations
+* Tween Animations
+* Staggered Animations
+* Custom Animations
+
+### Architecture
+
+* MVC
+* MVVM
+* Clean Architecture
+* Feature-First Architecture
+
+### Design Patterns
+
+* Singleton
+* Factory
+* Adapter
+* Repository
+* Strategy
+* Observer
+
+### Performance Optimization
+
+* Const Widgets
+* RepaintBoundary
+* Isolates
+* Lazy Loading
+* Image Optimization
+* Memory Leak Prevention
+
+### Testing
+
+* Unit Testing
+* Widget Testing
+* Integration Testing
+* Mocktail
+
+### Platform Channels
+
+* Android Integration
+* iOS Integration
+* Method Channels
+
+### Rendering
+
+* Skia
+* Impeller
+* Render Objects
+* Custom Painter
+* Layer Tree
+
+---
+
+## 📂 Repository Structure
 
 ```text
 lib/
-│
-├── core/
-│   ├── services/
-│   ├── validators/
-│   ├── routes/
-│   └── utils/
-│
-├── data/
-│   ├── database/
-│   ├── models/
-│   └── repositories/
-│
-├── domain/
-│   └── repositories/
-│
-├── presentation/
-│   ├── splash/
-│   ├── auth/
-│   ├── home/
-│   └── widgets/
-│
-├── injection/
-│
-└── main.dart
+└── features/
+    ├── dart_fundamentals/
+    ├── widget_system/
+    ├── state_management/
+    ├── navigation/
+    ├── networking/
+    ├── local_storage/
+    ├── firebase/
+    ├── animations/
+    ├── architecture/
+    ├── design_patterns/
+    ├── performance/
+    ├── testing/
+    ├── platform_channels/
+    ├── rendering/
+    └── interview_questions/
 ```
 
-## Routing
+---
 
-This project uses Navigator API for navigation.
+## 📖 Learning Format
 
-```dart
-Navigator.push()
-Navigator.pushReplacement()
-Navigator.pushAndRemoveUntil()
-```
+Each topic contains:
 
-Navigation Flow:
+* Theory Notes
+* Practical Examples
+* Best Practices
+* Interview Questions
+* Real-World Use Cases
+
+Example:
 
 ```text
-Splash Screen
-      ↓
-Login Screen
-      ↓
-Signup Screen
-      ↓
-Home Screen
-      ↓
-Logout
-      ↓
-Login Screen
+futures/
+├── futures_screen.dart
+├── futures_examples.dart
+├── futures_notes.md
+└── futures_interview.md
 ```
 
-## Environment
+---
 
-### Flutter SDK
+## 🎯 Purpose
 
-```bash
-Flutter 3.35.0
-Dart 3.9.0
-```
+This repository is designed for:
 
-### Java Version
+* Flutter Interview Preparation
+* Flutter Concept Revision
+* Practical Learning
+* Architecture Understanding
+* Performance Optimization Learning
+* Flutter Developer Portfolio
 
-```bash
-OpenJDK 17.0.13
-```
+---
 
-## Getting Started
+## 🛠️ Tech Stack
 
-Install dependencies:
+* Flutter
+* Dart
+* Bloc
+* Provider
+* Riverpod
+* Firebase
+* Dio
+* Hive
+* SQLite
+* Clean Architecture
 
-```bash
-flutter pub get
-```
+---
 
-Generate Floor database files:
+## 🤝 Contributions
 
-```bash
-dart run build_runner build --delete-conflicting-outputs
-```
+Contributions, suggestions, and improvements are welcome.
 
-Run the application:
+Feel free to fork the repository, create a branch, and submit a pull request.
 
-```bash
-flutter run
-```
+---
 
-## Author
+## 👨‍💻 Author
 
 Aditya Verma
 
-Flutter Developer
+Flutter Developer | Mobile App Developer
